@@ -1,0 +1,34 @@
+.b_gnerate{
+    background-color: cadetblue;
+    border: 0;
+    font-family: Arial;
+    font-size: 30px;
+    border-radius: 17px;
+    transition: 0.3s;
+    height: 10vh; /*высота*/
+    width: 60vw;  /*ширина*/
+    margin-left: 20vw;    /* Сдвинет кнопку вправо на 50px */
+    margin-top: 15vh;     /* Сдвинет кнопку вниз на 20px */
+}
+.b_gnerate:hover{
+    box-shadow: 4px 4px 4px;
+    transform: scale(1.02);
+}
+
+.b_yrv{
+    transition: 0.3s;
+    border-radius: 17px;
+    background-color: azure;
+    height: 10vh;
+    width: 30vw;
+    font-size: 30px;
+    border: 0;
+    margin-left: 20vw;
+    margin-top: 2vh;
+    text-align: center;
+    
+}
+.b_yrv:hover{
+    box-shadow: 4px 4px 4px;
+    transform: scale(1.02);
+}
